@@ -1,0 +1,38 @@
+.etiqueta {
+    -fx-font-size: 20px;
+    -fx-text-fill: #d9822b;
+}
+
+.campo {
+    -fx-border-color: #ffb366;
+    -fx-text-fill: #cc7a00;
+    -fx-background-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.link {
+    -fx-text-fill: #00f;
+}
+.link:hover{
+    -fx-text-fill: #f00;
+}
+.link:pressed{
+    -fx-text-fill:#ffff88;
+}
+
+#btn-login {
+    -fx-background-color: #1e1e2e;
+    -fx-border-color: #ffb366;
+    -fx-text-fill: #ffb366;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-font-family: "Impact";
+}
+#btn-login:hover{
+    -fx-text-fill: #ffffff;
+}
+#btn-login:pressed{
+    -fx-text-fill: #78350f;
+}
