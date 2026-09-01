@@ -1,0 +1,3 @@
+build/*
+dist/*
+src/org/davidgonzalez/system/config/Enviroment.java
