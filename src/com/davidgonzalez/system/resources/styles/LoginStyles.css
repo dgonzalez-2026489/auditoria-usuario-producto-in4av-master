@@ -1,0 +1,88 @@
+.root {
+    -fx-background-color: #12131a;
+}
+
+.panel-brand {
+    -fx-background-color: linear-gradient(to bottom right, #2b2d42, #12131a);
+}
+
+.titulo-brand {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4f4f5;
+}
+
+.subtitulo-brand {
+    -fx-font-size: 13px;
+    -fx-text-fill: #9aa0b4;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+    -fx-max-width: 200px;
+}
+
+.panel-form {
+    -fx-background-color: #1c1e29;
+}
+
+.titulo-form {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.subtitulo-form {
+    -fx-font-size: 12px;
+    -fx-text-fill: #7d8299;
+}
+
+.etiqueta {
+    -fx-font-size: 13px;
+    -fx-text-fill: #c7cad1;
+    -fx-font-weight: 600;
+}
+
+.campo {
+    -fx-border-color: #3a3d52;
+    -fx-text-fill: #f4f4f5;
+    -fx-background-color: #262838;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 10px;
+    -fx-prompt-text-fill: #5c5f75;
+}
+
+.campo:focused {
+    -fx-border-color: #7c83fd;
+}
+
+.link {
+    -fx-text-fill: #8b93ff;
+    -fx-font-size: 12px;
+}
+.link:hover {
+    -fx-text-fill: #b4b9ff;
+}
+.link:pressed {
+    -fx-text-fill: #5b62d1;
+}
+
+#btn-login {
+    -fx-background-color: #7c83fd;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+    -fx-cursor: hand;
+}
+#btn-login:hover {
+    -fx-background-color: #6067e6;
+}
+#btn-login:pressed {
+    -fx-background-color: #4a50c4;
+}
+
+.error-campo {
+    -fx-border-color: #ff5c5c;
+}
